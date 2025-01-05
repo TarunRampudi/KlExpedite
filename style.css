@@ -1,6 +1,6 @@
 
         body {
-            background-color: #d980fa;
+            background-color: #c241f0;
             color: white;
             font-family: Arial, sans-serif;
             display: flex;
@@ -17,8 +17,8 @@
             text-align: center;
         }
         .logo {
-            width: 100px;
-            height: 100px;
+            width: 130px;
+            height: 130px;
             border-radius: 50%;
             background-color: #fff;
             display: flex;
@@ -32,11 +32,11 @@
         }
         h1 {
             font-size: 2.5rem;
-            margin-bottom: 10px;
+            margin-bottom: 0px;
         }
         p {
             font-size: 1.2rem;
-            margin-bottom: 20px;
+            margin-bottom: 10px;
         }
         .social-icons {
             display: flex;
@@ -54,10 +54,12 @@
             width: 300px;
         }
         .button {
+            margin-left: -100px;
             background-color: transparent;
             border: 2px solid white;
-            border-radius: 5px;
-            padding: 15px 20px;
+            border-radius: 25px;
+            padding: 10px 20px;
+            width: 500px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -69,5 +71,8 @@
         .button:hover {
             background-color: white;
             color: #d980fa;
+        }
+        .button img {
+            padding-right: 120px; /* Adjust this value to control spacing */
         }
    
